@@ -11,4 +11,12 @@
 
 class BookList {
   // Code here
+  constructor() {
+    this.books = [];
+    this.lastRead = undefined;
+    this.currentlyreading = undefined;
+  }
 }
+
+let homeLibrary = BookList();
+console.log(homeLibrary);
