@@ -24,7 +24,7 @@ class Cat {
 }
 
 // B) Instantiate a cat called 'boots' with the Cat class.
-let Boots = new cat("Boots");
+let boots = new Cat();
 
 // C) What do you see when you console.log(boots)?
 
