@@ -9,7 +9,7 @@
 // and confirm that you have everything in there.
 
 // By the way, Boots is a Simaese cat...
-class Cat extends Boots {
+class Cat {
   constructor(name, breed) {
     this.species = "cat";
     this.tiredness = 0;
@@ -21,5 +21,5 @@ class Cat extends Boots {
   }
 }
 
-let Boots = new cat("Boots" && "Siamese");
+let boots = new Cat("Boots", "Siamese");
 console.log(boots);
