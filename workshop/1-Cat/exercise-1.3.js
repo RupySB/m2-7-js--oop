@@ -23,7 +23,7 @@
 
 // B) call the different methods with appropriate values and then console.log boots to see what happened to the property values.
 
-class Cat extends Boots {
+class Cat {
   constructor(name, breed) {
     this.species = "cat";
     this.tiredness = 100;
@@ -48,8 +48,10 @@ class Cat extends Boots {
   };
 }
 
-let Boots = new cat("Boots" && "Siamese");
+let Boots = new Cat("Boots", "Siamese");
 
 Boots.sleeping(15);
 Boots.eating(300);
-Boots.playnig(25);
+Boots.playing(25);
+
+console.log(Boots);
