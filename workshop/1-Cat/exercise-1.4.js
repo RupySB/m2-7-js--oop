@@ -10,7 +10,7 @@
 //
 //    It's up to you to decide how quickly these values should change.
 
-class Cat extends Boots {
+class Cat {
   constructor(name, breed) {
     this.species = "cat";
     this.tiredness = 100;
@@ -41,7 +41,7 @@ class Cat extends Boots {
   };
 }
 
-let Boots = new cat("Boots" && "Siamese");
+let Boots = new Cat("Boots", "Siamese");
 
 // B) Make Boots wait 20 minutes and call then console.log(boots);
 
