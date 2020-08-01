@@ -13,10 +13,10 @@ class BookList {
   // Code here
   constructor() {
     this.books = [];
-    this.lastRead = undefined;
-    this.currentlyreading = undefined;
+    this.lastRead = null;
+    this.currentlyreading = null;
   }
 }
 
-let homeLibrary = BookList();
+let homeLibrary = new BookList();
 console.log(homeLibrary);

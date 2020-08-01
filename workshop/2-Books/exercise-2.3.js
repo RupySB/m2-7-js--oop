@@ -8,7 +8,7 @@ class Book {
     this.title = title;
     this.genre = genre;
     this.author = author;
-    this.isRead = true || false;
+    this.isRead = isRead || false;
   }
 }
 
@@ -66,7 +66,7 @@ class BookList {
   };
 }
 
-let homeLibrary = BookList();
+let homeLibrary = new BookList();
 console.log(homeLibrary);
 
 // Exercise 2.3
@@ -88,8 +88,6 @@ console.log(homeLibrary);
 // respectively.
 //
 // The following code will fail by default. Your goal is to get it to run, and output the values specified at the end:
-
-const homeLibrary = new BookList();
 
 // Books are unread by default:
 homeLibrary.add(new Book("The Shining", "Horror", "Stephen King"));
